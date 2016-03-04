@@ -1,0 +1,14 @@
+#Configuration file for the application can know how to make your logs
+
+parameters:
+  logs_days: #here put your log periods
+    mercredi:
+      - ["13", "17"]
+    jeudi:
+      - ["9", "12"]
+      - ["13", "17"]
+    vendredi:
+      - ["9", "12"]
+      - ["13", "17"]
+  svn_repos: #here put your svn repos absolute paths
+    - "/home/anthony/etna/module"
